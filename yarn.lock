@@ -992,9 +992,9 @@
     fastq "^1.6.0"
 
 "@popperjs/core@^2.10.2":
-  version "2.10.2"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.10.2.tgz#0798c03351f0dea1a5a4cabddf26a55a7cbee590"
-  integrity sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
+  integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.1"
@@ -8766,8 +8766,8 @@ stylehacks@^4.0.0:
     postcss-selector-parser "^3.0.0"
 
 "sunshine-lcp-ui@git+ssh://git@github.com:cloudyly/sunshine-lcp-ui.git":
-  version "0.1.8"
-  resolved "git+ssh://git@github.com:cloudyly/sunshine-lcp-ui.git#28f6064ddb5303c08b4f35b816fe4bb38400bbbd"
+  version "0.1.9"
+  resolved "git+ssh://git@github.com:cloudyly/sunshine-lcp-ui.git#5eb55e056b71a13de58812632b34d46a8658094c"
   dependencies:
     core-js "^3.6.5"
     element-plus "^1.2.0-beta.3"
