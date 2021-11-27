@@ -1,14 +1,17 @@
 {
   "name": "sunshine-lcp-admin-ui",
+  "packageManager": "yarn",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "yarn && vue-cli-service serve",
     "build": "vue-cli-service build",
+    "upgrade:ui": "yarn upgrade sunshine-lcp-ui",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "sunshine-lcp-ui": "git+ssh://git@github.com:cloudyly/sunshine-lcp-ui.git",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"

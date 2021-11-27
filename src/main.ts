@@ -3,4 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-createApp(App).use(store).use(router).mount('#app')
+import SunshineUI from 'sunshine-lcp-ui'
+import 'sunshine-lcp-ui/lib/sunshine-lcp-ui.css'
+
+createApp(App).use(store)
+  .use(SunshineUI)
+  .use(router).mount('#app')
