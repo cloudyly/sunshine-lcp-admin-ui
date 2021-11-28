@@ -4,12 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "yarn && vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "upgrade:ui": "yarn upgrade sunshine-lcp-ui",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "sunshine-lcp-ui": "git+ssh://git@github.com:cloudyly/sunshine-lcp-ui.git",
     "vue": "^3.0.0",

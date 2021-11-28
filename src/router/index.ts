@@ -8,12 +8,22 @@ const routes: Array<RouteRecordRaw> = [
     children: [
       {
         path: '',
-        redirect: { name: 'search' }
+        redirect: { name: 'test-schema' }
       },
       {
         path: 'search',
         name: 'search',
         component: () => import('@/pages/search.vue')
+      },
+      {
+        path: 'test-schema',
+        name: 'test-schema',
+        component: () => import('@/pages/develop-mgr/test-schema.vue')
+      },
+      {
+        path: 'designer',
+        name: 'designer',
+        component: () => import('@/pages/develop-mgr/designer.vue')
       }
     ]
   }
